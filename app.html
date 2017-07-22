@@ -14,15 +14,8 @@
 <!--Font Awesome-->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<style>
-.p, h3 {
-color: white;}
-h4 {
-color:grey;
-padding-bottom:2%;}
-
-
-</style>
+<!--My Css file-->
+ <link rel="stylesheet" href="pastService.css"> 
 
 </head>
 
@@ -90,20 +83,7 @@ Compute Months of Past Service with our app!</strong></h3></div>
 
 </div>
 
-<script> 
-
-function pastService(days) {
-var days=$("#input").val();
-var month=25;
-var firstCalc=days/month;
-var number=2;
-var result=firstCalc/number;
-
-document.getElementById("pastService").innerHTML= "You have"+"<br>"+ result + "<br>"+ "months of past service!"; 
-}
-
-
-</script>
+<script src="pastService.js"> </script>
 </body>
 
 
